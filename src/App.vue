@@ -1,28 +1,48 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="container mx-auto">
+    <div class="w-6/12 mt-3.5 border border-solid">
+    <div class="m-5">
+      <div class="mb-5"> 
+        <c-button 
+        buttonId="submit" 
+        kind="primary" 
+        >Submit</c-button>
+      </div>
+       <div>  
+        <c-button 
+        buttonId="delete" 
+        kind="secondary" 
+        >Delete</c-button>
+       </div>
+    </div>
+        <div class="m-5">
+        <c-button 
+        buttonId="primary-full-size" 
+        kind="primary" 
+        size ="fullsize"
+        >Primary Full Size</c-button>
+        </div>  
+
+      <div class="m-5">
+        <c-button 
+        buttonId="secondary-full-size" 
+        kind="secondary" 
+        size ="fullsize"
+        >Secondary Full Size</c-button>
+        </div> 
+    </div>  
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import CButton from './components/Button.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    "c-button": CButton
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

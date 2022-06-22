@@ -1,0 +1,18 @@
+<!-- Button.stories.mdx-->
+
+import { Meta, Story } from '@storybook/addon-docs';
+
+import CButton from './Button.vue';
+
+<Meta title="Button" component={CButton} />
+
+# Button
+
+<Story name="Primary">
+  {() => {
+    return {
+      components: { CButton },
+      template: `<CButton buttonId="primary" kind=primary>Button</CButton>`,
+    };
+  }}
+</Story>
