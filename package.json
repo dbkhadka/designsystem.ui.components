@@ -2,11 +2,21 @@
   "name": "designsytem.ui.component",
   "version": "0.0.2",
   "private": false,
-  "main": "main.js",
+  "main": "./dist/componentsLib.common.js",
   "scripts": {
-    "build": "vue-cli-service storybook:build -c config/storybook",
-    "serve": "vue-cli-service storybook:serve -p 6006 -c config/storybook"
+    "build":"vue-cli-service build",
+    "serve":"vue-cli-service serve",
+    "build-bundle":"vue-cli-service build --target lib --name componentsLib ./src/main.js",
+    "storybook:build": "vue-cli-service storybook:build -c config/storybook",
+    "storybook:serve": "vue-cli-service storybook:serve -p 6006 -c config/storybook"
   },
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ],
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
