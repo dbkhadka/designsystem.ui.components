@@ -1,10 +1,14 @@
 import Vue from 'vue'
-import App from './App.vue'
+import CButton from '../src/components/Button.vue'
 
-import './index.css'
-Vue.config.devtools = true
-Vue.config.productionTip = false
+const Components = {
+    CButton
+};
 
-new Vue({
-  render: h => h(App)
-}).$mount('#app')
+Object.keys(Components).forEach(name => {
+    Vue.component(name, Components[name])
+});
+
+export {
+    CButton
+}

@@ -31,14 +31,13 @@ export default {
                 }
             },
             getSizeCssClass(size){
-               if(!size){
-              //standard
-               }else if(size == "fullsize"){
+               if(size == "fullsize"){
                  return "btn-full-size";
                }
+               return "";
             },
-            getEnabledCssClass(){
-
+            getEnabledCssClass(disabled){
+               return disabled == true ? "disabled":"";
             }
         },
     computed: {
@@ -59,7 +58,7 @@ export default {
 .btn-secondary {
    @apply bg-white hover:bg-blue-700 hover:text-white text-blue-600 border border-blue-600
 }
-.btn-full-size{
+.btn-full-size {
   @apply w-full
 }
 </style>

@@ -1,13 +1,11 @@
 {
-  "name": "designsystem.ui.components",
-  "version": "0.1.0",
-  "private": true,
+  "name": "designsytem.ui.component",
+  "version": "0.0.1",
+  "private": false,
+  "main": "main.js",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "storybook:build": "vue-cli-service storybook:build -c config/storybook",
-    "storybook:serve": "vue-cli-service storybook:serve -p 6006 -c config/storybook"
+    "build": "vue-cli-service storybook:build -c config/storybook",
+    "serve": "vue-cli-service storybook:serve -p 6006 -c config/storybook"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -53,5 +51,27 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "description": "## Project setup ``` npm install ```",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbkhadka/designsystem.ui.components.git"
+  },
+  "keywords": [
+    "Design",
+    "System",
+    "Components",
+    "By",
+    "using",
+    "Vue2",
+    "Tailwindcss",
+    "and",
+    "Storybook"
+  ],
+  "author": "Allied Electronics & Automation",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dbkhadka/designsystem.ui.components/issues"
+  },
+  "homepage": "https://github.com/dbkhadka/designsystem.ui.components#readme"
 }
