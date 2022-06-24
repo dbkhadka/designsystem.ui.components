@@ -1,5 +1,5 @@
 {
-  "name": "designsytem.ui.component",
+  "name": "designsystem.ui.components",
   "version": "0.0.4",
   "private": false,
   "main": "./dist/componentsLib.common.js",
