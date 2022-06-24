@@ -1,14 +1,12 @@
 {
   "name": "designsytem.ui.component",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "private": false,
   "main": "./dist/componentsLib.common.js",
   "scripts": {
-    "build":"vue-cli-service build",
-    "serve":"vue-cli-service serve",
-    "build-bundle":"vue-cli-service build --target lib --name componentsLib ./src/main.js",
-    "storybook:build": "vue-cli-service storybook:build -c config/storybook",
-    "storybook:serve": "vue-cli-service storybook:serve -p 6006 -c config/storybook"
+    "build": "vue-cli-service storybook:build -c config/storybook",
+    "serve": "vue-cli-service storybook:serve -p 6006 -c config/storybook",
+    "build-lib": "vue-cli-service build --target lib --name componentsLib ./src/main.js"
   },
   "files": [
     "dist/*",
@@ -62,7 +60,7 @@
     "last 2 versions",
     "not dead"
   ],
-  "description": "## Project setup ``` npm install ```",
+  "description": "Allied Electronics - Design System Components",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dbkhadka/designsystem.ui.components.git"
