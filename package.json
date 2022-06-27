@@ -1,6 +1,6 @@
 {
   "name": "designsystem.ui.components",
-  "version": "0.0.4",
+  "version": "0.0.1",
   "private": false,
   "main": "./dist/componentsLib.common.js",
   "scripts": {
