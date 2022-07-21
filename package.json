@@ -61,10 +61,6 @@
     "not dead"
   ],
   "description": "RS Design System",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dbkhadka/designsystem.ui.components.git"
-  },
   "keywords": [
     "Design",
     "System",
@@ -77,9 +73,5 @@
     "Storybook"
   ],
   "author": "RS",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dbkhadka/designsystem.ui.components/issues"
-  },
-  "homepage": "https://github.com/dbkhadka/designsystem.ui.components#readme"
+  "license": "ISC"
 }
